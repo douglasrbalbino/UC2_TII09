@@ -1,0 +1,16 @@
+
+h1 , h2 /* seletor ou selector. Ex: h1 , h2 , p */{
+    color: /* propriedade. Ex: color , font-size  */ blue /* valor. Ex: blue , red , 20px */;
+}
+
+p /* seletor ou selector. Ex: h1 , h2 , p */{
+    color: /* propriedade. Ex: color , font-size  */ green /* valor. Ex: blue , red , 20px */;
+}
+
+ul /* seletor ou selector. Ex: h1 , h2 , p */{
+    list-style: /* propriedade. Ex: color , font-size  */ disc /* valor. Ex: blue , red , 20px */;
+}
+
+pre /* seletor ou selector. Ex: h1 , h2 , p */{
+    background-color: /* propriedade. Ex: color , font-size  */ rgb(231, 229, 229) /* valor. Ex: blue , red , 20px */;
+}
