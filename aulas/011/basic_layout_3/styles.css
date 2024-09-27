@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(190, 190, 190);
+}
+
+nav {
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav .home {
+    margin: 5px ;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: yellow;
+
+}
+
+div .menu {
+    padding-left: 15px;
+
+}
+
+.menu a {
+    padding-left: 15px;
+}
+
+main {
+    background-color: black;
+    display: flex;
+}
+
+section, aside, div {
+    padding: 15px ;
+
+}
+
+section {
+    background-color: rgb(155, 155, 155);
+
+}
+
+aside {
+    background-color: rgb(215, 215, 215);
+
+}
+
+.irrelevante {
+    background-color: rgb(120, 120, 120);
+
+}
+
+footer {
+    background-color: rgb(190, 190, 190);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
