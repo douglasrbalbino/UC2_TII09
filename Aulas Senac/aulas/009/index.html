@@ -23,6 +23,7 @@
     <main>
         <section>
             <h2>Introdução à tag &lt img &gt</h2>
+
             <p>A tag img em HTML é usada para incorporar imagens em uma página web. Ela é um elemento vazio, ou seja, não possui uma de fechamento e contém apenas atributos que definem o conteúdo visual.
             </p>
 
@@ -30,18 +31,66 @@
 
             <ul>
                 <li>
-                    src (source): define o caminho da imagem que será exibida. 
+                    <strong>src (source):</strong> define o caminho da imagem que será exibida. 
                     Pode ser uma URL externa ou um caminho relativo dentro do servidor.
 
                     <div class="card">
                         <h4>Exemplo 1: </h4>
-                        <pre><code>CÓDIGO VAI AQUI</code></pre>
+                        <pre><code>&lt; img src="./Imagem1.png" &gt;</code></pre>
                         <P>Resultado:</P>
                         <img src="./Imagem1.png" alt="Imagem do Personagem Black Star" style="width: 100%;">
                     </div>
                 </li>
+                <li>
+                    <strong>alt (alternative text)</strong>: Fornece um texto alternativo para ser exibido caso a imagem não possa ser carregada. Ele também melhora a acessibilidade para leitores de tela.
+
+                    <div class="card">
+                        <h4>Exemplo 2:</h4>
+                        <pre><code>&lt; img src="./Blaster e Soul.gif" alt="Black Star e Soul Correndo" &gt;</code></pre>
+                        <P>Resultado:</P>
+
+                        <img src="./Blaster e Soul.gif" alt="Black Star e Soul Correndo" style="width: 100%;">
+
+                    </div>
+                </li>
+
+                <li>
+                    <strong>src</strong> também pode ser de um link externo.
+
+                    <div class="card">
+                        <h4>Exemplo 3:</h4>
+                        <pre><code> &lt; img src="https://filepicker-images.genius.com/f1g4006yu2" alt="Lua Sangrenta &gt;</code></pre>
+                        <P>Resultado:</P>
+
+                        <img src="https://filepicker-images.genius.com/f1g4006yu2" alt="Lua Sangrenta " style="width: 100%;">
+
+                    </div>
+                </li>
             </ul>
         </section>
+
+        <aside>
+            <h3>Tipos Comuns de Imagens</h3>
+
+            <p>Os formatos de imagens mais utilizados na web são:</p>
+
+            <ul>
+                <li>
+                    <Strong>(.jpg ou .jpge)</Strong>
+                    Formato utilizado amplamente para fotografias e imagens com muitos detalhes e cores. Possui compreesão com perda de qualidade (lossy).
+                </li>
+
+                <li>
+                    <strong>(.png)</strong>
+                    Usado para imagens com fundo transparente ou que necessitam de alta qualidade, sem perda de detalhes. Utiliza compreesão sem perda (lossless).
+                </li>
+
+                <li>
+                    <strong>(.gif)</strong>
+                    Formato ideal para imagens animadas e pequenos icones. Suporta transparência mas tem um número limitado de cores.   
+                </li>
+            </ul>
+        </aside>
     </main>
     <!-- Conteúdo Complementar-->
 

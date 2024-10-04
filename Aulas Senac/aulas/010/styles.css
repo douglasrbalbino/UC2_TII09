@@ -6,30 +6,35 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to left, white , lightgray);
+    background: linear-gradient(to right, white, lightgray);
     color: #333;
     padding: 20px;
-
 }
+
 /* Cabeçalhos */
-h1 , h2 , h3 , h4 , h5 , h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 20px;
     font-weight: 700;
     color: #2c3e50;
 }
-/* Parágrafos */
-p {
-    margin-bottom: 15px;
 
-}
-/* Links (ancoras) */
+/* Links */
 a {
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    color: rgb(63, 63, 248);
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 15px;
 }
 
 /* Listas */
@@ -56,8 +61,10 @@ table {
     margin-bottom: 20px;
 }
 
-table , th , td {
-    border: 1px solid white;
+table,
+th,
+td {
+    border: 1px solid #ddd;
     padding: 10px;
 }
 
@@ -69,9 +76,4 @@ th {
 
 td {
     background-color: #f1f1f1;
-}
-
-pre {
-    background-color: rgb(220, 190, 200, 1.0);
-    border-radius: 4px;
 }

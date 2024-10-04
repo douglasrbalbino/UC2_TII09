@@ -50,6 +50,7 @@ main {
 }
 
 section {
+    margin-bottom: 20px;
     background-color: white;
     padding: 15px;
     border-radius: 5px;
@@ -72,6 +73,16 @@ li {
 }
 
 .card {
-    background-color: black;
+    background-color: #f4f4f4;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.3);
+}
 
+aside {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-left: 4px solid;
 }
