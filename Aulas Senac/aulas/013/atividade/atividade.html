@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 0.2fr 1.8fr 1.5fr 0.5fr;
+            grid-template-areas:
+            "header header header header"
+            "aside main main main"
+            "aside section1 section2 section2"
+            "aside footer footer footer"
+            ;
+            height: 100vh;
+            gap: 5px;
+        }
+
+        header {
+            grid-area: header;
+            padding: 15px;
+            background-color: lightblue;
+            
+        }
+
+        aside {
+            padding: 15px;
+            grid-area: aside;
+            background-color: lightcoral;
+        }
+
+        main {
+            padding: 15px;
+            grid-area: main;
+            background-color: lightgreen;
+        }
+
+        .section1 {
+            padding: 15px;
+            grid-area: section1;
+            background-color: lightpink;
+        }
+
+        .section2 {
+            padding: 15px;
+            grid-area: section2;
+            background-color: lightyellow
+        }
+
+        footer {
+            padding: 15px;
+            grid-area: footer;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>Navbar</header>
+        <aside>Sidebar</aside>
+        <main>Main</main>
+        <section class="section1">Section 1</section>
+        <section class="section2">Section 2</section>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
